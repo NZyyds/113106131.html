@@ -1,0 +1,25 @@
+td.block-button a { /*表格欄td內的專區按鈕*/
+list-style-type:square;
+border-radius: 8px; /* 四個圓角設計*/
+margin-left:20px;
+background-color: #0000E3;
+color: #FFFFFF;
+text-align: center;
+font-weight:bold;
+display: block;
+position: relative;
+width:150px;
+font-family: '微軟正黑體', Microsoft JhengHei;
+font-size: 22px;
+padding: 10 10px;
+opacity: 0.7; /* 設計透明度 0-1之間的小數值 */
+text-decoration: none;
+line-height: 80px;
+}
+td.block-button a:hover { /* 滑鼠滑入按鈕變色*/
+border-radius: 8px; /* 四個圓角設計*/
+background-color: #850000;
+color: #FFFFFF;
+opacity: 0.9; /* 設計透明度 0-1之間的小數值 */
+font-weight:bold;
+}
